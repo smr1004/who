@@ -12,6 +12,32 @@
         // 인풋창에 입력된 텍스트가 있어야 합니다. taskText
         const taskText = taskInput.value.trim();
 ​
+//텍스트가 없는 상황을 제외
+if (taskText !=''){
+      //태스크 아이템을 만드는 함수
+      const taskText = taskInput
+}
+
+(taskText= taskInput.value.trim();
+
+//함수 선언
+function  createTaskItem( ) {
+      //LI 태그를 생성하여 taskItem 변수를 지정.
+      const taskItem = document.createElement('li');
+      taskItem.textContent = taskText;
+      taskItem.addEventListener ('click',completeTask);
+      //버튼 태그 생성
+      const removeButton = document.createElement('button');
+      removeButton.addEventListener('click',removeTask);
+      taskItem.appendChild(removeButton);
+      retun      
+}
+
+
+
+
+
+
         // li 태그를 생성(create)합니다. taskItem
         const taskItem = document.createElement('li');
         // taskItem 텍스트(taskText)를 대입(=)합니다.
